@@ -1,27 +1,22 @@
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <link rel="stylesheet" href="styles/vendor.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="styles/alchemy.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
   <div class="alchemy" id="alchemy"></div>
-
   <script src="js/vendor.js"></script>
+
   <script src="js/alchemy.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
   <script type="text/javascript">
 
-    var config = {
-      dataSource: 'data/contrib.json',
-      graphHeight: 260,
-      graphWidth: 300,
-      
-      linkDistance: function(){ return 40; },
-
-      nodeTypes: {"node_type": ["Maintainer", "Contributor"]},
-      caption: function(node){ return node.caption; }
-    };
-    //blabla
-    alchemy = new Alchemy(config)
+    // aqui el nuevo ejemplo
   </script>
 </body>
 </html>
