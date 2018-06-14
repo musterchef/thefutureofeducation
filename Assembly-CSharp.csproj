@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FA3EED93-6E36-D99C-DAC1-943D7DA6CF69}</ProjectGuid>
+    <ProjectGuid>{6CA024E3-6294-B738-AC9A-93635CCB3300}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,13 +51,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\003 Drawing Lines\src\LinesGL.cs" />
+     <Compile Include="Assets\003 Drawing Lines\src\LinesGR.cs" />
+     <Compile Include="Assets\003 Drawing Lines\src\LinesLR.cs" />
+     <Compile Include="Assets\drawLine.cs" />
+     <Compile Include="Assets\Orbit.cs" />
+     <Compile Include="Assets\pathDrawer.cs" />
      <Compile Include="Assets\Scripts\CSVReader.cs" />
+     <Compile Include="Assets\Scripts\Datas.cs" />
      <Compile Include="Assets\Scripts\LabelOrienter_Smooth.cs" />
      <Compile Include="Assets\Scripts\PointRenderer.cs" />
+     <None Include="Assets\003 Drawing Lines\src\BlackLine.shader" />
      <None Include="Assets\Materials\GUI3D Text Shader.shader" />
      <None Include="Assets\GUI3DTextShader.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>/Users/Mustillo/Downloads/Scatterplot_Standalone-master/Scatterplot_Standalone/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>/Users/Mustillo/thefutureofeducation/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -164,7 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D0A56747-2EBE-74CB-54B6-EDFCEC16AC34}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{A6A23839-00FD-620A-1DF4-9B5905E96718}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
